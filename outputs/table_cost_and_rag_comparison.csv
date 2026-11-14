@@ -1,0 +1,5 @@
+execution_mode,p50_latency_ms,throughput_req_per_sec,cpu_hours_per_10k_apps,est_cost_usd_per_10k_apps,hallucination_risk
+1. Baseline Scorecard (WoE),5.61,178.3,0.0156,0.0012,None (Deterministik)
+2. Arsitektur Usulan (GBDT + Sync TreeSHAP + C3 Kamus),2.4,416.8,0.0067,0.0005,None (Kamus Bisnis Deterministik)
+3. LIME Worker (Dijalankan Asinkron - 30% sampel audit/grey/reject),14.84,67.4,0.0124,0.001,"Low (Surrogate Linear, Non-Blocking)"
+4. Alternatif Hipotetis LLM/RAG Reason Generator (Perbandingan),982.4,1.0,0.0067,4.0005,Moderate-High (Perlu Guardrail Regulasi OJK)

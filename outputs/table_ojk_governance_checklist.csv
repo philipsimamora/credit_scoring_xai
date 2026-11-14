@@ -1,0 +1,6 @@
+Regulasi Acuan,Kontrol Arsitektur,Status PoC,Bukti Empiris
+UU No. 27/2022 (UU PDP) Pasal 20 & 21,"Consent Opt-In Gateway, SHA-256 PII Masking & Hak Sanggahan HITL",PASS,Log penolakan non-consent & tokenisasi PII + Laporan Nasabah
+POJK No. 10/POJK.05/2022 (LPBBTI),Dual-Track Credit Modeling (WoE Baseline + Monotonic GBDT) & Kalibrasi PD,PASS,"Tabel perbandingan AUC, Gini, KS, dan Brier Score"
+POJK No. 22 Tahun 2023 (Pelindungan Konsumen),Reweighing + Threshold Optimizer (DIR 0.80-1.25) & Adverse Action Reason Codes,PASS,"Metrik DIR, EOD, serta alasan keputusan berbahasa Indonesia"
+POJK No. 11/POJK.03/2022 (Tata Kelola TI),"PSI/CSI Drift Monitor, Circuit-Breaker Fallback & WORM Hash-Chain Audit Trail",PASS,Verifikasi integritas hash-chain WORM & simulasi fallback PSI > 0.25
+"SLA Operasional & Stabilitas XAI (Ballegeer et al., 2025)",Sync TreeSHAP (<50ms / SLA <=200ms) & Async LIME Rank Stability (>=85%),PARTIAL / THRESHOLD MISSED,Benchmark latensi P50/P95/P99 & rasio kesesuaian Top-4 SHAP vs LIME

@@ -1,0 +1,4 @@
+dataset,n_audit,mean_top4_overlap_pct,mean_exact_rank_match_pct,mean_spearman_corr,pct_samples_ge_75_overlap
+home_credit,40,55.0,23.75,0.3571,27.5
+uci_taiwan,40,75.0,29.38,0.7633,90.0
+synthetic_id,40,66.25,31.87,0.6406,60.0

@@ -1,0 +1,45 @@
+{
+  "s1_governance": {
+    "input_rows": 300,
+    "rejected_no_consent": 25,
+    "diverted_missing_gt_25": 35,
+    "passed_rows": 240,
+    "plaintext_pii_leaked": false,
+    "s1_passed": true
+  },
+  "s7_worm_hitl": {
+    "triage_summary": {
+      "total_applications": 15992,
+      "auto_approve_count": 6852,
+      "auto_approve_pct": 0.4285,
+      "grey_zone_hitl_count": 8584,
+      "grey_zone_hitl_pct": 0.5368,
+      "auto_reject_count": 556,
+      "auto_reject_pct": 0.0348
+    },
+    "worm_records_logged": 9,
+    "worm_integrity_ok": true,
+    "worm_status": "OK: All WORM hash-chain links verified",
+    "tamper_detected": true,
+    "tamper_message": "Tampered payload hash mismatch at line 1"
+  },
+  "tables_generated": [
+    "table_cost_and_rag_comparison.csv",
+    "table_csi_critical_drift.csv",
+    "table_drift_circuit_breaker.csv",
+    "table_hypothesis_verification.csv",
+    "table_latency_benchmark.csv",
+    "table_layer1_governance.csv",
+    "table_model_comparison.csv",
+    "table_monotonic_gaming_stress.csv",
+    "table_ojk_governance_checklist.csv",
+    "table_xai_stability.csv"
+  ],
+  "figures_generated": [
+    "fig1_roc_ks_calibration.png",
+    "fig2_fairness_tradeoff.png",
+    "fig3_latency_distribution.png",
+    "fig4_xai_global_local_stability.png",
+    "fig5_drift_psi_circuit_breaker.png"
+  ]
+}

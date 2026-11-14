@@ -1,0 +1,4 @@
+dataset,probe_feature,unconstrained_monotonic_violations,monotonic_gbdt_violations,gaming_mean_pd_drop,gaming_max_pd_drop
+home_credit,EXT_SOURCE_2 (decrease),98,0,0.0,0.0
+uci_taiwan,PAY_0 (increase),85,0,0.0,0.0
+synthetic_id,pln_late_ratio_6m (increase),18,0,0.0018,0.02726

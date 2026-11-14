@@ -1,0 +1,11 @@
+feature,csi,status
+pln_late_ratio_3m,7.91068,CRITICAL
+pln_late_ratio_6m,6.31001,CRITICAL
+pdam_on_time_rate_6m,5.61631,CRITICAL
+ewallet_balance_trend_3m,2.77562,CRITICAL
+ecommerce_weekly_tx_consistency,2.06902,CRITICAL
+sim_tenure_months,0.0,STABLE
+telco_topup_freq_3m,0.0,STABLE
+data_plan_consistency_6m,0.0,STABLE
+ewallet_essential_ratio_3m,0.0,STABLE
+internet_bill_consistency_6m,0.0,STABLE

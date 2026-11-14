@@ -1,0 +1,4 @@
+dataset_name,total_raw_rows,rejected_no_consent,thin_file_rows,raw_missing_gt_25_pct,core_missing_gt_25_rows,core_missing_gt_25_pct,passed_rows,pii_columns_masked,dataset_sha256
+home_credit,80000,0,80000,0.516,41,0.0005125,79959,['customer_id'],4929c20db849086151360a93b3a0d201e93b3ee69669162b5a15428aafbbb70f
+uci_taiwan,30000,0,30000,0.0,0,0.0,30000,['customer_id'],60c307a9a6e4d8a25596eca581c16d981d2f0badd0e3d15e14d9a6b18b44bbd3
+synthetic_id,10213,0,10213,0.0,2,0.00019582884558895524,10211,"['customer_id', 'nik', 'phone_number']",394e876087204a0e46e5e1e18c0d955c13001410e00b17f3c417e2432571abeb

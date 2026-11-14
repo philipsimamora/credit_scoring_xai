@@ -1,0 +1,5 @@
+scenario,psi_score,status,active_model,fallback_triggered,gbdt_auc,baseline_auc
+0. Healthy Production,0.0,HEALTHY_PRIMARY,Fairness-Aware Monotonic GBDT,False,0.8257,0.829
+1. Moderate Macro Drift,0.07415,HEALTHY_PRIMARY,Fairness-Aware Monotonic GBDT,False,0.8272,0.8235
+2. Critical Macro Drift,3.81459,CIRCUIT_BREAKER_FALLBACK,Baseline Scorecard (WoE),True,0.5217,0.5198
+3. Third-Party API Outage,0.0,CIRCUIT_BREAKER_FALLBACK,Baseline Scorecard (WoE),True,,0.829

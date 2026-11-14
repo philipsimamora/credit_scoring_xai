@@ -1,0 +1,16 @@
+dataset,component,n_calls,mean_ms,p50_ms,p95_ms,p99_ms,sla_target
+home_credit,Baseline Scorecard (WoE),120,5.924,5.609,8.004,9.588,<= 200 ms
+home_credit,Fairness GBDT Only (No XAI),120,1.075,1.019,1.391,1.856,<= 200 ms
+home_credit,Sync TreeSHAP Overhead,120,1.482,1.37,2.311,3.137,< 50 ms
+home_credit,Total Sync (GBDT + TreeSHAP),120,2.557,2.399,3.662,4.693,<= 200 ms
+home_credit,Async Calibrated LIME Worker,25,15.812,14.838,21.085,22.591,Async Background
+uci_taiwan,Baseline Scorecard (WoE),120,5.052,4.71,7.459,8.719,<= 200 ms
+uci_taiwan,Fairness GBDT Only (No XAI),120,1.043,0.985,1.237,2.167,<= 200 ms
+uci_taiwan,Sync TreeSHAP Overhead,120,1.376,1.308,2.152,2.39,< 50 ms
+uci_taiwan,Total Sync (GBDT + TreeSHAP),120,2.419,2.29,3.321,4.581,<= 200 ms
+uci_taiwan,Async Calibrated LIME Worker,25,13.969,13.533,18.045,20.127,Async Background
+synthetic_id,Baseline Scorecard (WoE),120,5.519,5.169,8.23,9.858,<= 200 ms
+synthetic_id,Fairness GBDT Only (No XAI),120,1.05,0.984,1.467,1.778,<= 200 ms
+synthetic_id,Sync TreeSHAP Overhead,120,1.289,1.123,2.003,2.67,< 50 ms
+synthetic_id,Total Sync (GBDT + TreeSHAP),120,2.339,2.109,3.45,3.897,<= 200 ms
+synthetic_id,Async Calibrated LIME Worker,25,12.643,12.32,15.543,18.839,Async Background
